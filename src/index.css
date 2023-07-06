@@ -4,8 +4,15 @@
 
 html {
   font-family: sans-serif;
+  background-color: rgb(49, 30, 17);
 }
 
 body {
   margin: 0;
+}
+
+.card {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  overflow: hidden;
 }

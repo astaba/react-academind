@@ -1,7 +1,14 @@
-import React from 'react'
+import React from "react";
+import classes from "./Button.module.css";
 
-export default function Button() {
+export default function Button(props) {
   return (
-    <div>Button</div>
-  )
+    <button
+      type={props.type}
+      className={classes.button}
+      onClick={props.handleClick}
+    >
+      {props.children}
+    </button>
+  );
 }
